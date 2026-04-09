@@ -497,11 +497,16 @@
             timerText.innerText = "";
             resendLink.style.display = "block";
 
+             clearInterval(timerInterval);
+            timerText.innerText = "";
+            resendLink.style.display = "block";
+
           }
 
         }, 1000);
 
       }
+    
     </script>
 
 </body>
